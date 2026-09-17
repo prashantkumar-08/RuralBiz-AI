@@ -1,0 +1,179 @@
+[
+  {
+    "id": "pmegp",
+    "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "nodalAgency": "KVIC / DIC / KVIB",
+    "categories": ["Manufacturing", "Services", "Agro-Processing", "Handicrafts", "Dairy"],
+    "maxProjectCost": 5000000,
+    "maxProjectCostService": 2000000,
+    "subsidy": {
+      "generalUrban": 15,
+      "generalRural": 25,
+      "specialUrban": 25,
+      "specialRural": 35
+    },
+    "ownContribution": {
+      "general": 10,
+      "special": 5
+    },
+    "eligibleBeneficiaries": ["General", "OBC", "SC", "ST", "Women", "Ex-Servicemen", "Differently Abled", "Minorities"],
+    "minAge": 18,
+    "minEducation": "8th Pass for projects above ₹10L (Mfg) / ₹5L (Service)",
+    "tenureYears": 5,
+    "moratoriumMonths": 6,
+    "description": "Credit-linked subsidy programme to generate continuous and sustainable employment opportunities in rural and urban areas through micro-enterprises.",
+    "portalUrl": "https://www.kviconline.gov.in/pmegpeportal/",
+    "requiredDocs": ["Aadhaar Card", "PAN Card", "Detailed Project Report (DPR)", "Caste/Special Category Certificate", "Educational Qualification (8th pass+)", "Rural Area Certificate / Gram Panchayat NOC", "Land/Lease Agreement", "Machinery Quotations"]
+  },
+  {
+    "id": "mudra",
+    "name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+    "nodalAgency": "MUDRA / Scheduled Commercial Banks / RRBs",
+    "categories": ["Retail", "Services", "Manufacturing", "Agri-Allied", "Artisans"],
+    "tiers": [
+      { "tier": "Shishu", "maxAmount": 50000, "margin": 0, "interestRate": "8.5% - 10%" },
+      { "tier": "Kishore", "maxAmount": 500000, "margin": 10, "interestRate": "9.0% - 11%" },
+      { "tier": "Tarun", "maxAmount": 1000000, "margin": 15, "interestRate": "9.5% - 11.5%" }
+    ],
+    "subsidy": {
+      "generalUrban": 0,
+      "generalRural": 0,
+      "specialUrban": 0,
+      "specialRural": 0
+    },
+    "ownContribution": {
+      "general": 10,
+      "special": 10
+    },
+    "eligibleBeneficiaries": ["All"],
+    "minAge": 18,
+    "tenureYears": 5,
+    "moratoriumMonths": 3,
+    "description": "Collateral-free institutional credit to non-corporate small business enterprises for income-generating activities across rural and semi-urban India.",
+    "portalUrl": "https://www.mudra.org.in/",
+    "requiredDocs": ["Aadhaar Card", "PAN Card", "Proof of Residence", "Business Address Proof", "Quotation of Machinery / Items to be purchased", "Passport size photographs"]
+  },
+  {
+    "id": "pmfme",
+    "name": "PM Formalisation of Micro food processing Enterprises (PMFME)",
+    "nodalAgency": "Ministry of Food Processing Industries (MoFPI)",
+    "categories": ["Food Processing", "Agro-Processing", "Spices", "Pickles", "Bakery", "Flour/Dal Mill", "Oil Extraction"],
+    "maxProjectCost": 3000000,
+    "subsidy": {
+      "generalUrban": 35,
+      "generalRural": 35,
+      "specialUrban": 35,
+      "specialRural": 35,
+      "maxCap": 1000000
+    },
+    "ownContribution": {
+      "general": 10,
+      "special": 10
+    },
+    "eligibleBeneficiaries": ["All", "FPOs", "SHGs", "Cooperatives"],
+    "minAge": 18,
+    "tenureYears": 7,
+    "moratoriumMonths": 6,
+    "description": "Credit-linked capital subsidy for upgradation and formalisation of individual and group micro food processing units adopting One District One Product (ODOP) approach.",
+    "portalUrl": "https://pmfme.mofpi.gov.in/",
+    "requiredDocs": ["Aadhaar Card", "PAN Card", "Bank Statement (6 months)", "Food Safety (FSSAI) registration/applied", "Project Feasibility Report", "Quotation for food processing machinery"]
+  },
+  {
+    "id": "ahidf",
+    "name": "Animal Husbandry Infrastructure Development Fund (AHIDF)",
+    "nodalAgency": "DAHD / SIDBI / NABARD",
+    "categories": ["Dairy Processing", "Meat Processing", "Animal Feed Plant", "Poultry"],
+    "maxProjectCost": 50000000,
+    "interestSubvention": 3.0,
+    "subsidy": {
+      "generalUrban": 0,
+      "generalRural": 0,
+      "specialUrban": 0,
+      "specialRural": 0
+    },
+    "ownContribution": {
+      "general": 15,
+      "special": 10
+    },
+    "eligibleBeneficiaries": ["Individual Entrepreneurs", "MSME", "FPO", "Dairy Cooperatives"],
+    "minAge": 18,
+    "tenureYears": 8,
+    "moratoriumMonths": 24,
+    "description": "Incentivizing investments to establish dairy & meat processing plants, animal feed units, and breed improvement technology with 3% interest subvention and Credit Guarantee Fund.",
+    "portalUrl": "https://ahidf.udyamimitra.in/",
+    "requiredDocs": ["DPR with Technical Feasibility", "Land title / Long term lease", "Pollution Control Board NOC", "Bank Account Statement", "Machinery Quotations"]
+  },
+  {
+    "id": "standup_india",
+    "name": "Stand-Up India Scheme",
+    "nodalAgency": "SIDBI / Scheduled Commercial Banks",
+    "categories": ["Manufacturing", "Services", "Agri-Allied", "Trading"],
+    "minProjectCost": 1000000,
+    "maxProjectCost": 10000000,
+    "subsidy": {
+      "generalUrban": 0,
+      "generalRural": 0,
+      "specialUrban": 0,
+      "specialRural": 0
+    },
+    "ownContribution": {
+      "general": 15,
+      "special": 15
+    },
+    "eligibleBeneficiaries": ["Women", "SC", "ST"],
+    "minAge": 18,
+    "tenureYears": 7,
+    "moratoriumMonths": 18,
+    "description": "Facilitating bank loans between ₹10 Lakhs and ₹1 Crore to at least one SC/ST borrower and at least one Woman borrower per bank branch for setting up greenfield enterprises.",
+    "portalUrl": "https://www.standupmitra.in/",
+    "requiredDocs": ["Identity & Address proof", "Caste Certificate (for SC/ST)", "Proof of Category (Woman Entrepreneur)", "Project Report", "Balance sheets / Net worth statements"]
+  },
+  {
+    "id": "pmmsy",
+    "name": "Pradhan Mantri Matsya Sampada Yojana (PMMSY)",
+    "nodalAgency": "Department of Fisheries",
+    "categories": ["Fisheries", "Aquaculture", "Fish Feed Mill", "Biofloc"],
+    "maxProjectCost": 2500000,
+    "subsidy": {
+      "generalUrban": 40,
+      "generalRural": 40,
+      "specialUrban": 60,
+      "specialRural": 60
+    },
+    "ownContribution": {
+      "general": 20,
+      "special": 15
+    },
+    "eligibleBeneficiaries": ["Fishers", "Women", "SC", "ST", "Rural Youth"],
+    "minAge": 18,
+    "tenureYears": 5,
+    "moratoriumMonths": 6,
+    "description": "Holistic scheme to drive the Blue Revolution with 40% (General) to 60% (Women/SC/ST) governmental financial assistance for inland fish ponds and recirculatory aquaculture.",
+    "portalUrl": "https://pmmsy.dof.gov.in/",
+    "requiredDocs": ["Aadhaar", "Land Records / Pond lease agreement (10+ years)", "District Fisheries Officer clearance", "Detailed Cost Estimate"]
+  },
+  {
+    "id": "midh",
+    "name": "Mission for Integrated Development of Horticulture (MIDH)",
+    "nodalAgency": "National Horticulture Board (NHB)",
+    "categories": ["Polyhouse", "Mushroom Farming", "Cold Storage", "Organic Vegetables"],
+    "maxProjectCost": 3500000,
+    "subsidy": {
+      "generalUrban": 35,
+      "generalRural": 50,
+      "specialUrban": 50,
+      "specialRural": 50
+    },
+    "ownContribution": {
+      "general": 20,
+      "special": 15
+    },
+    "eligibleBeneficiaries": ["Farmers", "Rural Youth", "Women Groups"],
+    "minAge": 18,
+    "tenureYears": 5,
+    "moratoriumMonths": 6,
+    "description": "Promotes holistic growth of horticulture sector including greenhouse polyhouses, shade nets, mushroom spawn production units, and pack houses.",
+    "portalUrl": "https://midh.gov.in/",
+    "requiredDocs": ["Land 7/12 & 8A / RoR records", "Soil & Water testing report", "Bank Loan In-Principle Sanction", "DPR vetted by Agriculture Dept"]
+  }
+]

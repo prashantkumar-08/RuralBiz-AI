@@ -1,0 +1,372 @@
+[
+  {
+    "id": "dairy-farming",
+    "name": "Dairy Farming & Milk Chilling Unit",
+    "category": "Dairy",
+    "sector": "Agri-Allied",
+    "typicalProjectCost": 1000000,
+    "minCapital": 75000,
+    "recommendedSchemes": ["pmegp", "ahidf", "mudra"],
+    "summary": "10-cow/buffalo milk production with chilling unit and direct dairy cooperative/B2B supply chain.",
+    "rawMaterials": ["High-yield milch cattle (Murrah / Gir / HF cross)", "Green fodder & silage", "Cattle concentrate feed", "Veterinary care & mineral mixture"],
+    "equipment": [
+      {"name": "Cowshed & Housing Structure", "cost": 300000},
+      {"name": "Milking Machine & 500L Bulk Milk Cooler", "cost": 250000},
+      {"name": "Chaff Cutter & Feed Grinder", "cost": 75000},
+      {"name": "Purchase of 10 Milch Cows", "cost": 325000},
+      {"name": "Electrification & Water Borewell", "cost": 50000}
+    ],
+    "monthlyMetrics": {
+      "revenue": 140000,
+      "operatingCost": 75000,
+      "netProfitBeforeEMI": 65000,
+      "productionVolume": "3,000 Litres/month"
+    },
+    "localDemandFactor": "High",
+    "targetRadiusKm": 8,
+    "competitionLevel": "Medium",
+    "paybackMonths": 24,
+    "dscr": 2.1,
+    "keyRisks": ["Feed cost volatility", "Cattle health & seasonal mastitis"],
+    "mitigation": ["Tie-up with local dairy cooperative like Amul/Nandini", "Insure all cattle under Pashu Bima Yojana"]
+  },
+  {
+    "id": "mustard-spices-grinding",
+    "name": "Mustard & Spices Grinding Unit",
+    "category": "Agro-Processing",
+    "sector": "Food Processing",
+    "typicalProjectCost": 500000,
+    "minCapital": 50000,
+    "recommendedSchemes": ["pmfme", "pmegp", "mudra"],
+    "summary": "Processing locally grown mustard seeds, turmeric, coriander, and red chillies into packaged spices.",
+    "rawMaterials": ["Raw mustard seeds", "Dry turmeric rhizomes", "Dry coriander & chillies", "Packaging pouches"],
+    "equipment": [
+      {"name": "Multi-purpose Pulverizer / Grinder (15 HP)", "cost": 180000},
+      {"name": "Oil Expeller (Cold Press Ghani)", "cost": 120000},
+      {"name": "Vibratory Sieve & Grader", "cost": 45000},
+      {"name": "Band Sealer & Weight Packing Machine", "cost": 65000},
+      {"name": "Working Capital & Storage Bins", "cost": 90000}
+    ],
+    "monthlyMetrics": {
+      "revenue": 95000,
+      "operatingCost": 52000,
+      "netProfitBeforeEMI": 43000,
+      "productionVolume": "1,800 kg spices & oil"
+    },
+    "localDemandFactor": "Very High",
+    "targetRadiusKm": 10,
+    "competitionLevel": "Medium",
+    "paybackMonths": 18,
+    "dscr": 2.4,
+    "keyRisks": ["Crop seasonality", "Moisture control during monsoons"],
+    "mitigation": ["Direct farm gate procurement during harvest", "ODOP brand promotion through local Haats & Kirana stores"]
+  },
+  {
+    "id": "poultry-broiler",
+    "name": "Poultry Farming (Broiler / Layer Unit)",
+    "category": "Livestock",
+    "sector": "Agri-Allied",
+    "typicalProjectCost": 600000,
+    "minCapital": 60000,
+    "recommendedSchemes": ["ahidf", "pmegp", "mudra"],
+    "summary": "2,000 birds commercial broiler shed with automated feeding and climate curtains.",
+    "rawMaterials": ["Day-old chicks (DOC)", "Pre-starter and finisher poultry feed", "Medicines & vaccines"],
+    "equipment": [
+      {"name": "Environmentally Protected Shed (2,500 sq.ft)", "cost": 320000},
+      {"name": "Automatic Drinkers & Bell Feeders", "cost": 85000},
+      {"name": "Foggers & Ventilation Exhaust", "cost": 45000},
+      {"name": "Backup Generator / Inverter", "cost": 50000},
+      {"name": "Initial Flock & Feed Working Capital", "cost": 100000}
+    ],
+    "monthlyMetrics": {
+      "revenue": 110000,
+      "operatingCost": 68000,
+      "netProfitBeforeEMI": 42000,
+      "productionVolume": "3,800 kg live weight/cycle"
+    },
+    "localDemandFactor": "High",
+    "targetRadiusKm": 15,
+    "competitionLevel": "High",
+    "paybackMonths": 22,
+    "dscr": 1.9,
+    "keyRisks": ["Bird flu outbreaks", "Feed price escalation"],
+    "mitigation": ["Contract farming agreement with integrator (Suguna/Venky's)", "Strict bio-security protocols"]
+  },
+  {
+    "id": "custom-hiring-center",
+    "name": "Custom Hiring Centre (Farm Implements & Tractor)",
+    "category": "Services",
+    "sector": "Agri Services",
+    "typicalProjectCost": 1500000,
+    "minCapital": 150000,
+    "recommendedSchemes": ["pmegp", "standup_india"],
+    "summary": "Renting tractors, rotavators, laser levellers, and harvesters on hourly basis to smallholder farmers.",
+    "rawMaterials": ["Diesel fuel", "Lubricants & regular spares"],
+    "equipment": [
+      {"name": "50 HP Tractor with 4WD", "cost": 850000},
+      {"name": "Heavy-duty Rotavator & MB Plough", "cost": 220000},
+      {"name": "Multi-Crop Seed Drill", "cost": 90000},
+      {"name": "Laser Land Leveller & Transmitter", "cost": 240000},
+      {"name": "Tipping Trailer", "cost": 100000}
+    ],
+    "monthlyMetrics": {
+      "revenue": 130000,
+      "operatingCost": 48000,
+      "netProfitBeforeEMI": 82000,
+      "productionVolume": "180 machine hours/month"
+    },
+    "localDemandFactor": "Very High",
+    "targetRadiusKm": 12,
+    "competitionLevel": "Low",
+    "paybackMonths": 26,
+    "dscr": 2.3,
+    "keyRisks": ["Seasonal farming cycle", "Operator machine damage"],
+    "mitigation": ["Pre-booking via village WhatsApp group", "Advance rental token payment"]
+  },
+  {
+    "id": "mini-dal-mill",
+    "name": "Mini Dal Mill & Pulse Processing Unit",
+    "category": "Agro-Processing",
+    "sector": "Food Processing",
+    "typicalProjectCost": 800000,
+    "minCapital": 80000,
+    "recommendedSchemes": ["pmfme", "pmegp"],
+    "summary": "Dehulling and splitting of Arhar (Toor), Chana (Gram), and Moong pulses into ready-to-cook packaged dal.",
+    "rawMaterials": ["Raw unhusked pulses from local farmers", "Water/edible oil for conditioning", "BOPP printed bags"],
+    "equipment": [
+      {"name": "Semi-Automatic Mini Dal Mill (150 kg/hr)", "cost": 380000},
+      {"name": "Destoner & Gravity Separator", "cost": 120000},
+      {"name": "Dal Polisher & Glazing Unit", "cost": 95000},
+      {"name": "Continuous Band Heat Sealer", "cost": 45000},
+      {"name": "Raw Material Working Stock", "cost": 160000}
+    ],
+    "monthlyMetrics": {
+      "revenue": 125000,
+      "operatingCost": 72000,
+      "netProfitBeforeEMI": 53000,
+      "productionVolume": "5,000 kg split dal"
+    },
+    "localDemandFactor": "High",
+    "targetRadiusKm": 10,
+    "competitionLevel": "Low",
+    "paybackMonths": 20,
+    "dscr": 2.2,
+    "keyRisks": ["Raw pulse moisture variations", "Mandi price fluctuations"],
+    "mitigation": ["Direct procurement at harvest MSP", "Supply to local schools (Mid-day meal) and Anganwadis"]
+  },
+  {
+    "id": "solar-micro-cold-storage",
+    "name": "Solar Powered Micro Cold Storage (5MT)",
+    "category": "Infrastructure",
+    "sector": "Agri-Allied",
+    "typicalProjectCost": 1200000,
+    "minCapital": 120000,
+    "recommendedSchemes": ["midh", "pmegp", "ahidf"],
+    "summary": "Off-grid 5 metric ton solar cold room allowing farmers to avoid distress selling of fruits and vegetables.",
+    "rawMaterials": ["Refrigerant gas", "Cleaning and disinfection consumables"],
+    "equipment": [
+      {"name": "PUF Insulated Cold Room (10x10x10 ft)", "cost": 450000},
+      {"name": "5 kW Solar PV Array with Thermal Storage", "cost": 480000},
+      {"name": "Compressor & Evaporator Coil Unit", "cost": 170000},
+      {"name": "Plastic Crates & Digital Temperature Logger", "cost": 100000}
+    ],
+    "monthlyMetrics": {
+      "revenue": 90000,
+      "operatingCost": 18000,
+      "netProfitBeforeEMI": 72000,
+      "productionVolume": "Rental for 5,000 kg perishable capacity"
+    },
+    "localDemandFactor": "High",
+    "targetRadiusKm": 8,
+    "competitionLevel": "Very Low",
+    "paybackMonths": 28,
+    "dscr": 2.5,
+    "keyRisks": ["Solar inverter downtime", "Off-season occupancy dips"],
+    "mitigation": ["Dual hybrid grid backup", "Partner with local vegetable FPO on monthly retainership"]
+  },
+  {
+    "id": "vermicompost-biofertilizer",
+    "name": "Vermicompost & Bio-Fertilizer Production",
+    "category": "Organic Agri",
+    "sector": "Manufacturing",
+    "typicalProjectCost": 350000,
+    "minCapital": 35000,
+    "recommendedSchemes": ["pmegp", "mudra"],
+    "summary": "Converting cow dung and agricultural residue into high-value organic worm castings and vermiwash.",
+    "rawMaterials": ["Fresh cow dung", "Farm crop residue", "Eisenia Fetida earthworms", "Woven HDPE bags"],
+    "equipment": [
+      {"name": "10 Permanent Brick/HDPE Beds (30x4 ft)", "cost": 120000},
+      {"name": "Shade Net Polyhouse Shed", "cost": 80000},
+      {"name": "Rotary Sieve & Shredder Machine", "cost": 65000},
+      {"name": "Vermiwash Collection System & Pump", "cost": 35000},
+      {"name": "Initial Earthworm Colony (50 kg)", "cost": 50000}
+    ],
+    "monthlyMetrics": {
+      "revenue": 65000,
+      "operatingCost": 22000,
+      "netProfitBeforeEMI": 43000,
+      "productionVolume": "6-8 Tonnes organic manure/month"
+    },
+    "localDemandFactor": "Very High",
+    "targetRadiusKm": 12,
+    "competitionLevel": "Low",
+    "paybackMonths": 14,
+    "dscr": 2.7,
+    "keyRisks": ["Excess heat drying out earthworms", "Pest predators (ants, moles)"],
+    "mitigation": ["Water drip sprinklers", "Organic Neem oil barriers around beds"]
+  },
+  {
+    "id": "bamboo-cane-handicrafts",
+    "name": "Bamboo & Cane Handicrafts & Furniture",
+    "category": "Handicrafts",
+    "sector": "Manufacturing",
+    "typicalProjectCost": 400000,
+    "minCapital": 25000,
+    "recommendedSchemes": ["pmegp", "mudra"],
+    "summary": "Artisan unit manufacturing eco-friendly bamboo furniture, baskets, lampshades, and homeware.",
+    "rawMaterials": ["Treated bamboo culms", "Cane strips", "Non-toxic varnishes & hardware"],
+    "equipment": [
+      {"name": "Bamboo Splitting & Slicing Machine", "cost": 110000},
+      {"name": "Treatment & Boron Preservation Tank", "cost": 60000},
+      {"name": "Pneumatic Nailer & Hand Tools Set", "cost": 45000},
+      {"name": "Spray Painting & Lacquering Booth", "cost": 55000},
+      {"name": "Raw Bamboo Stock & Working Capital", "cost": 130000}
+    ],
+    "monthlyMetrics": {
+      "revenue": 78000,
+      "operatingCost": 35000,
+      "netProfitBeforeEMI": 43000,
+      "productionVolume": "250 handicraft pieces/month"
+    },
+    "localDemandFactor": "Medium",
+    "targetRadiusKm": 25,
+    "competitionLevel": "Low",
+    "paybackMonths": 16,
+    "dscr": 2.3,
+    "keyRisks": ["Wood borer beetle infestation", "Lack of direct urban market linkages"],
+    "mitigation": ["Boric-borax chemical treatment", "Listing on ONDC and TRIFED e-marketplaces"]
+  },
+  {
+    "id": "sanitary-pad-unit",
+    "name": "Automatic Biodegradable Sanitary Pad Unit",
+    "category": "Healthcare",
+    "sector": "Manufacturing",
+    "typicalProjectCost": 450000,
+    "minCapital": 30000,
+    "recommendedSchemes": ["pmegp", "standup_india", "mudra"],
+    "summary": "Low-cost hygiene product manufacturing operated by women SHGs with distribution in rural schools.",
+    "rawMaterials": ["Wood pulp absorbent", "Biodegradable cornstarch sheet", "Release paper & adhesive", "Packaging pouches"],
+    "equipment": [
+      {"name": "Defibration & Pulverizer Unit", "cost": 95000},
+      {"name": "Core Forming & Compression Machine", "cost": 130000},
+      {"name": "Edge Sealing & Die Cutting Machine", "cost": 90000},
+      {"name": "UV Sterilization Chamber", "cost": 45000},
+      {"name": "Raw Materials Stock", "cost": 90000}
+    ],
+    "monthlyMetrics": {
+      "revenue": 72000,
+      "operatingCost": 36000,
+      "netProfitBeforeEMI": 36000,
+      "productionVolume": "20,000 pads/month"
+    },
+    "localDemandFactor": "Very High",
+    "targetRadiusKm": 10,
+    "competitionLevel": "Low",
+    "paybackMonths": 16,
+    "dscr": 2.2,
+    "keyRisks": ["Quality control & sterilization compliance", "Initial awareness hesitation"],
+    "mitigation": ["Partnership with ASHA workers and Gram Panchayats", "Free awareness camps in rural colleges"]
+  },
+  {
+    "id": "rural-kirana-mart",
+    "name": "Smart Rural Kirana Mart & Daily Needs Store",
+    "category": "Retail",
+    "sector": "Trading",
+    "typicalProjectCost": 500000,
+    "minCapital": 50000,
+    "recommendedSchemes": ["mudra"],
+    "summary": "Modernized self-service village grocery with POS billing, UPI payments, and FMCG staples.",
+    "rawMaterials": ["Packaged groceries", "FMCG toiletries", "Grains & flours", "Dairy products"],
+    "equipment": [
+      {"name": "Shop Racks, Display Gondolas & Cash Counter", "cost": 120000},
+      {"name": "Commercial Double-Door Display Cooler", "cost": 65000},
+      {"name": "Barcode Scanner & Android POS Billing Machine", "cost": 35000},
+      {"name": "Initial Inventory & Working Capital", "cost": 280000}
+    ],
+    "monthlyMetrics": {
+      "revenue": 160000,
+      "operatingCost": 122000,
+      "netProfitBeforeEMI": 38000,
+      "productionVolume": "₹5,000 - ₹7,000 daily sales"
+    },
+    "localDemandFactor": "Very High",
+    "targetRadiusKm": 3,
+    "competitionLevel": "High",
+    "paybackMonths": 18,
+    "dscr": 2.0,
+    "keyRisks": ["Credit/Khata defaults by villagers", "Perishable product expiry"],
+    "mitigation": ["Digital Khata book with SMS reminders", "Low minimum stock re-order cycle"]
+  },
+  {
+    "id": "mushroom-cultivation",
+    "name": "Mushroom Cultivation & Packaging (Oyster / Button)",
+    "category": "Horticulture",
+    "sector": "Agri-Allied",
+    "typicalProjectCost": 350000,
+    "minCapital": 35000,
+    "recommendedSchemes": ["midh", "pmegp", "mudra"],
+    "summary": "Controlled climate mushroom cultivation bags with rapid 25-day harvest cycles.",
+    "rawMaterials": ["Wheat/paddy straw substrate", "High-purity mushroom spawn", "Perforated PP bags", "Food-grade punnets"],
+    "equipment": [
+      {"name": "Insulated Growing Room with Tiered Bamboo Racks", "cost": 120000},
+      {"name": "Steam Boiler & Straw Sterilization Drum", "cost": 55000},
+      {"name": "Humidifier & Ventilation Fan System", "cost": 45000},
+      {"name": "Vacuum Packaging & Impulse Sealer", "cost": 40000},
+      {"name": "Spawn, Chemicals & Working Capital", "cost": 90000}
+    ],
+    "monthlyMetrics": {
+      "revenue": 70000,
+      "operatingCost": 28000,
+      "netProfitBeforeEMI": 42000,
+      "productionVolume": "500 kg fresh mushrooms/month"
+    },
+    "localDemandFactor": "High",
+    "targetRadiusKm": 15,
+    "competitionLevel": "Low",
+    "paybackMonths": 14,
+    "dscr": 2.6,
+    "keyRisks": ["Contamination by mold/green trichoderma", "Short 48-hour fresh shelf life"],
+    "mitigation": ["Autoclave steam sanitization", "Sun-drying / dehydration unit for surplus produce"]
+  },
+  {
+    "id": "kacchi-ghani-oil",
+    "name": "Kacchi Ghani Cold Pressed Oil Extraction",
+    "category": "Agro-Processing",
+    "sector": "Food Processing",
+    "typicalProjectCost": 750000,
+    "minCapital": 75000,
+    "recommendedSchemes": ["pmfme", "pmegp"],
+    "summary": "Traditional wooden rotary cold-press extraction of premium unrefined mustard, groundnut, and sesame oil.",
+    "rawMaterials": ["High oil content oilseeds (Mustard/Groundnut/Sesame)", "Glass/Tin bottles & labels"],
+    "equipment": [
+      {"name": "Twin Wooden Ghani (Cold Press Wood Expeller)", "cost": 320000},
+      {"name": "Plate Filter Press for Natural Clarification", "cost": 110000},
+      {"name": "Seed Cleaner & Destoner", "cost": 65000},
+      {"name": "Semi-automatic Liquid Filling & Capping Machine", "cost": 75000},
+      {"name": "Initial Raw Oilseeds Stock (2 Tons)", "cost": 180000}
+    ],
+    "monthlyMetrics": {
+      "revenue": 135000,
+      "operatingCost": 82000,
+      "netProfitBeforeEMI": 53000,
+      "productionVolume": "1,200 Litres cold pressed oil + oilcake"
+    },
+    "localDemandFactor": "High",
+    "targetRadiusKm": 15,
+    "competitionLevel": "Medium",
+    "paybackMonths": 18,
+    "dscr": 2.4,
+    "keyRisks": ["Adulteration competition from cheap refined palm oil", "Seed cost volatility"],
+    "mitigation": ["Open-kitchen demo where customers see live extraction", "Byproduct oilcake sold as high-protein cattle feed"]
+  }
+]

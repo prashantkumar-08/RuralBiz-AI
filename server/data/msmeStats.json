@@ -1,0 +1,141 @@
+{
+  "nationalStats": {
+    "totalMicroEnterprises": "63.3 Million",
+    "ruralShare": "51.25%",
+    "employmentGenerated": "111 Million",
+    "womenOwnedEnterprises": "20.44%",
+    "averageStartingCapital": "₹1,15,000",
+    "pmegpUnitsAssisted": "9,25,000+"
+  },
+  "mandiPrices": [
+    {
+      "commodity": "Mustard Seed (Sarson)",
+      "variety": "Black / Yellow",
+      "mandi": "Alwar Mandi, Rajasthan",
+      "modalPricePerQuintal": 5450,
+      "minPrice": 5100,
+      "maxPrice": 5680,
+      "trend": "+2.4% this week",
+      "status": "Bullish",
+      "arrivalQuantity": "850 Tonnes"
+    },
+    {
+      "commodity": "Raw Cow Milk (FAT 4.2, SNF 8.5)",
+      "variety": "A2 / Mixed",
+      "mandi": "Anand Milk Union, Gujarat",
+      "modalPricePerQuintal": 3850,
+      "minPrice": 3600,
+      "maxPrice": 4100,
+      "trend": "Stable",
+      "status": "High Steady Demand",
+      "arrivalQuantity": "22,000 Litres"
+    },
+    {
+      "commodity": "Turmeric Rhizomes (Dry)",
+      "variety": "Salem / Nizamabad",
+      "mandi": "Nizamabad Mandi, Telangana",
+      "modalPricePerQuintal": 14200,
+      "minPrice": 13500,
+      "maxPrice": 15800,
+      "trend": "+5.8% this week",
+      "status": "High Margin",
+      "arrivalQuantity": "340 Tonnes"
+    },
+    {
+      "commodity": "Arhar Dal (Pigeon Pea)",
+      "variety": "Desi Red",
+      "mandi": "Gulbarga APMC, Karnataka",
+      "modalPricePerQuintal": 10800,
+      "minPrice": 9900,
+      "maxPrice": 11400,
+      "trend": "+1.8% this week",
+      "status": "Strong Demand",
+      "arrivalQuantity": "620 Tonnes"
+    },
+    {
+      "commodity": "Broiler Live Chicken",
+      "variety": "Vencobb 430",
+      "mandi": "Nashik Agri Market, Maharashtra",
+      "modalPricePerQuintal": 9200,
+      "minPrice": 8800,
+      "maxPrice": 9600,
+      "trend": "-1.2% this week",
+      "status": "Cyclical",
+      "arrivalQuantity": "45 Tonnes"
+    },
+    {
+      "commodity": "Wheat (Sharbati / Lokwan)",
+      "variety": "Grade A",
+      "mandi": "Khanna Mandi, Punjab",
+      "modalPricePerQuintal": 2425,
+      "minPrice": 2275,
+      "maxPrice": 2550,
+      "trend": "+0.8% this week",
+      "status": "MSP Backed",
+      "arrivalQuantity": "1,450 Tonnes"
+    },
+    {
+      "commodity": "Fresh Button Mushroom",
+      "variety": "White Button",
+      "mandi": "Azadpur APMC, Delhi NCR",
+      "modalPricePerQuintal": 11000,
+      "minPrice": 9500,
+      "maxPrice": 13000,
+      "trend": "+4.1% this week",
+      "status": "High Margin",
+      "arrivalQuantity": "85 Tonnes"
+    }
+  ],
+  "dicDirectory": [
+    {
+      "district": "Anand",
+      "state": "Gujarat",
+      "officeName": "District Industries Centre (DIC) Anand",
+      "address": "Collectorate Compound, Borsad Chokdi, Anand - 388001",
+      "leadBank": "Bank of Baroda",
+      "gmContact": "+91 2692 260341",
+      "helpdeskEmail": "dic-anand@gujarat.gov.in",
+      "clusterFocus": "Dairy, Food Processing, Spices, Engineering"
+    },
+    {
+      "district": "Varanasi",
+      "state": "Uttar Pradesh",
+      "officeName": "District Industries & Enterprise Promotion Centre",
+      "address": "Chowkaghat, Varanasi - 221002",
+      "leadBank": "Union Bank of India",
+      "gmContact": "+91 542 2208422",
+      "helpdeskEmail": "dicvar-up@nic.in",
+      "clusterFocus": "Handloom, Wooden Toys, Agro-processing, Zari"
+    },
+    {
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "officeName": "District Industries Centre Nashik",
+      "address": "MIDC Area, Trimbak Road, Satpur, Nashik - 422007",
+      "leadBank": "Bank of Maharashtra",
+      "gmContact": "+91 253 2351288",
+      "helpdeskEmail": "dic.nashik@maharashtra.gov.in",
+      "clusterFocus": "Grape/Wine Processing, Onion storage, Poultry, Auto ancillaries"
+    },
+    {
+      "district": "Coimbatore",
+      "state": "Tamil Nadu",
+      "officeName": "Regional Joint Director of Industries & Commerce",
+      "address": "Opp. VOC Park, Coimbatore - 641018",
+      "leadBank": "Canara Bank",
+      "gmContact": "+91 422 2397223",
+      "helpdeskEmail": "diccbe@tn.gov.in",
+      "clusterFocus": "Pumpsets, Wet Grinders, Coir Handicrafts, Textiles"
+    },
+    {
+      "district": "Ranchi",
+      "state": "Jharkhand",
+      "officeName": "District Industries Centre Ranchi",
+      "address": "Kanke Road, Near CM Residence, Ranchi - 834008",
+      "leadBank": "State Bank of India",
+      "gmContact": "+91 651 2231045",
+      "helpdeskEmail": "dic.ranchi@jharkhandmail.gov.in",
+      "clusterFocus": "Lac Processing, Bamboo Crafts, Minor Forest Produce, Honey"
+    }
+  ]
+}
