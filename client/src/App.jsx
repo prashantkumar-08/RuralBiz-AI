@@ -6,6 +6,7 @@ import DprModal from './components/DPR/DprModal';
 import WhatsAppChat from './components/WhatsAppSimulator/WhatsAppChat';
 import SchemeExplorer from './components/Schemes/SchemeExplorer';
 import MandiExplorer from './components/Market/MandiExplorer';
+import DashboardView from './components/Dashboard/DashboardView';
 
 export default function App() {
   const [currentLang, setCurrentLang] = useState('en');
@@ -142,6 +143,18 @@ export default function App() {
             onAnalyze={() => triggerAnalysis(formData)}
             onRecalculateFinances={handleRecalculateFinances}
             onOpenDPR={() => setDprModalOpen(true)}
+            currentLang={currentLang}
+          />
+        )}
+
+        {activeTab === 'dashboard' && (
+          <DashboardView
+            formData={formData}
+            setFormData={setFormData}
+            businessProfiles={businessProfiles}
+            analysisData={analysisData}
+            onOpenDPR={() => setDprModalOpen(true)}
+            onNavigateTab={(tab) => setActiveTab(tab)}
             currentLang={currentLang}
           />
         )}

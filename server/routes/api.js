@@ -5,6 +5,7 @@ const { calculateFinancials } = require('../engines/financeEngine');
 const { analyzeMarket } = require('../engines/marketEngine');
 const { matchSchemes, getAllSchemes } = require('../engines/schemeEngine');
 const { getChatResponse, generateMilestoneRoadmap } = require('../engines/aiEngine');
+const { getDashboardData } = require('../engines/dashboardEngine');
 
 const businessProfiles = require('../data/businessProfiles.json');
 const msmeStats = require('../data/msmeStats.json');
@@ -35,6 +36,27 @@ router.get('/schemes', (req, res) => {
 // Mandi rates & stats
 router.get('/mandi', (req, res) => {
   res.json(msmeStats);
+});
+
+// Executive & Entrepreneur Dashboard Analytics Endpoint
+router.post('/dashboard', (req, res) => {
+  try {
+    const data = getDashboardData(req.body || {});
+    res.json(data);
+  } catch (err) {
+    console.error('Dashboard calculation error:', err);
+    res.status(500).json({ error: err.message });
+  }
+});
+
+router.get('/dashboard/summary', (req, res) => {
+  try {
+    const data = getDashboardData({});
+    res.json(data);
+  } catch (err) {
+    console.error('Dashboard summary error:', err);
+    res.status(500).json({ error: err.message });
+  }
 });
 
 // Comprehensive 4-Step Analysis Endpoint

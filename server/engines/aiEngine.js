@@ -174,7 +174,51 @@ Respond in a friendly, encouraging tone. Format response with clear markdown bul
   };
 }
 
+// Generate executive advisory insights for the Dashboard
+function generateExecutiveAdvice({
+  businessName = 'Dairy Farming',
+  district = 'Anand',
+  state = 'Gujarat',
+  projectCost = 1000000,
+  subsidyAmount = 350000,
+  dscr = 1.95,
+  breakEvenYears = 1.8
+}) {
+  return [
+    {
+      category: 'Capital & Subsidy Leverage',
+      badge: 'High Impact',
+      type: 'financial',
+      title: `Optimize ₹${(subsidyAmount / 100000).toFixed(2)}L Margin Subsidy`,
+      description: `Ensure your Udyam MSME certificate and proforma machinery invoices reflect standard KVIC/DIC norms before submission to protect your ₹${(subsidyAmount / 100000).toFixed(2)} Lakh grant.`
+    },
+    {
+      category: 'Bank Appraisal & DSCR',
+      badge: dscr >= 1.75 ? 'Bank-Grade' : 'Moderate',
+      type: 'loan',
+      title: `DSCR Ratio at ${dscr} (Target > 1.50)`,
+      description: `Your debt service coverage ratio comfortably exceeds the minimum commercial bank benchmark of 1.50, significantly raising probability of first-time sanction.`
+    },
+    {
+      category: 'Hyper-Local Market Strategy',
+      badge: 'Revenue Growth',
+      type: 'market',
+      title: `Form Direct Off-take in ${district}`,
+      description: `Bypassing regional middlemen through village milk chilling centers, APMC e-NAM portals, or direct FPO partnerships can improve your net realization by 12–18%.`
+    },
+    {
+      category: 'OPEX & Sustainability',
+      badge: 'Cost Savings',
+      type: 'operational',
+      title: `Incorporate Solar / Bio-energy Links`,
+      description: `Energy and utility costs account for ~15-20% of monthly overheads. Applying for PM-KUSUM solar rooftop support can shorten break-even from ${breakEvenYears} to ~1.4 years.`
+    }
+  ];
+}
+
 module.exports = {
   getChatResponse,
-  generateMilestoneRoadmap
+  generateMilestoneRoadmap,
+  generateExecutiveAdvice
 };
+
