@@ -194,10 +194,6 @@ export default function App() {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div className="flex items-center gap-2">
             <span className="font-extrabold text-slate-900">RuralBiz AI</span>
-            <span>•</span>
-            <span>Smart India Hackathon 2026 (PS 26091)</span>
-            <span>•</span>
-            <span className="text-emerald-700 font-bold">Team Forgers</span>
           </div>
           <div className="flex items-center gap-4">
             <a href="https://www.kviconline.gov.in" target="_blank" rel="noreferrer" className="hover:text-rural">

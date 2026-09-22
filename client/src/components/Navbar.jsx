@@ -41,9 +41,6 @@ export default function Navbar({ currentLang, onLangChange, activeTab, onTabChan
               <span className="font-extrabold text-lg tracking-tight text-slate-900 group-hover:text-emerald-700 transition-colors">
                 RuralBiz <span className="text-emerald-600">AI</span>
               </span>
-              <span className="hidden sm:inline-block text-[10px] font-semibold text-slate-500 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-full">
-                SIH '26
-              </span>
             </div>
           </div>
 
