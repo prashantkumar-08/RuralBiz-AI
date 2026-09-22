@@ -23,7 +23,6 @@ export default function HeroSection({ currentLang, onQuickSelect }) {
           {/* SIH 2026 Pill */}
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-100/80 border border-emerald-300 text-emerald-900 text-xs font-semibold mb-4 shadow-xs">
             <span className="flex h-2 w-2 rounded-full bg-rural animate-ping" />
-            <span>Smart India Hackathon 2026 • Problem Statement 26091</span>
             <span className="text-emerald-600">|</span>
             <span className="text-emerald-800 font-bold">Team Forgers</span>
           </div>
