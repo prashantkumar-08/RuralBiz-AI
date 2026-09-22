@@ -21,7 +21,11 @@ export default function HeroSection({ currentLang, onQuickSelect }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-10">
         <div className="text-center max-w-3xl mx-auto">
           {/* SIH 2026 Pill */}
-          
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-100/80 border border-emerald-300 text-emerald-900 text-xs font-semibold mb-4 shadow-xs">
+            <span className="flex h-2 w-2 rounded-full bg-rural animate-ping" />
+            <span className="text-emerald-600">|</span>
+            <span className="text-emerald-800 font-bold">Made with love by Prashant</span>
+          </div>
 
           {/* Main Heading */}
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
