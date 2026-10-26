@@ -1,1 +1,1 @@
-# RuralBiz-AI
+https://ruralbiz-rho.vercel.app/
